@@ -14,7 +14,7 @@
 </head>
 <body>
 <div  id="app">
-    <ul >
+    <ul v-if="mail.length === 10">
         <li class="text-center" v-for="mail in mail">{{mail}}</li>
     </ul>
 </div>
